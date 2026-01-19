@@ -1,244 +1,437 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+
 }
 
 
 /* Navbar */
 
-header{
-    max-width:1600px;
-    margin:0 auto;
+header {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: #1A0B2E;
 }
 
-nav{
-    width:1200px;
-    margin:0px auto;
-    padding:20px 0;
+nav {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 20px 0;
+    background-color: #1A0B2E;
+
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     background-color: #1A0B2E;
     color: white;
-    
+
 }
 
-.nav-container ul{
-    list-style:none;
+.nav-container ul {
+    list-style: none;
     display: flex;
     gap: 32px;
     align-items: center;
-    
-    
+
+
 }
 
-.nav-container a{
+.nav-container a {
     text-decoration: none;
     color: white;
-   
+
 }
 
-.btn{
-    border-radius:20px;
-    background: linear-gradient(
-    47.64deg,
-    rgba(247, 233, 63, 1),
-    rgba(251, 9, 180, 1),
-    rgba(145, 0, 248, 1)
-  );
+.btn {
+    border-radius: 20px;
+    background: linear-gradient(47.64deg,
+            rgba(247, 233, 63, 1),
+            rgba(251, 9, 180, 1),
+            rgba(145, 0, 248, 1));
 
-  padding: 12px 16px;
+    padding: 12px 16px;
 
 }
 
 /* Banner Section */
 
-.banner-container{
-    background-image: url(./assets/hero-bg.png);
-    width:1600px;
-    height: 760px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-}
-
-.microphone{
-    position: absolute;
-    top: 32%;
-    right: 46%;
-}
-
-.banner-logo-container>h1{
-    font-size: 60px;
-    color:#FFFFFF;
-}
-
-.banner-logo-container>p{
-    color: #FFFFFF;
-}
-
-.banner-btn{
-    width:202px;
-    height:44px;
-    border-radius:20px;
-
-    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    
-    
-}
-
-.banner-btn2{
-    width: 147px;
-    height: 44px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    
-}
-
-.spotify{
-
-    font-size: 24px;
-    
-}
 
 
 /* About Section */
-.about-container{
-    max-width:1600px;
-    margin:0 auto;
+.about-container {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: #1A0B2E;
-   
-    
+
+
 
 }
 
-.about{
-    width:1200px;
-    height:223px;
+.about {
+    width: 1200px;
+    height: 223px;
     text-align: center;
     margin: 0 auto;
-    line-height:30px;
+    line-height: 30px;
     color: #afa8a8;
 
 
 }
 
 
-.hr-tag{
+.btn-one{
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.btn-2{
+    padding: 12px 20px;
+    border-radius:30px;
+}
+
+
+.hr-tag {
     background-color: #383636db;
     border: none;
     height: 1px;
-    
+
 }
 
-.about>h1{
+.about>h1 {
     color: #FFFFFF;
     font-weight: 700;
     margin-bottom: 20px;
 
 }
 
-.discription{
-    margin-top:20px;
-    padding-bottom:50px;
+.discription {
+    margin-top: 20px;
+    padding-bottom: 50px;
 }
 
 
-/* Why Choose Section */
+/* 150k section */
 
-.choose-continer{
-    max-width:1600px;
-    margin:0 auto;
+.choose-continer {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: #1A0B2E;
-   
+
 
 }
 
-.choose-ar-container{
+.choose-ar-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:80px;
-    padding-top:80px;
-    padding-bottom:120px;
-    
-    
+    gap: 80px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+
 }
 
-.choose-ar-container h1{
-    color:#00FF88;
+.choose-ar-container h1 {
+    color: #00FF88;
     font-size: 48px;
-    }
-
-
-.choose-ar-container p{
-    color: #5c5a5a;
-    font-size:16px;
-    font-weight:400;
 }
+
+
+.choose-ar-container p {
+    color: #5c5a5a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Why Choose TechWave */
+
+.card-container{
+    max-width: 1600px;
+    margin:0 auto;
+    background-color:#230E3D;
+}
+
+.card-ar-container{
+    max-width:1200px;
+    margin:0 auto;
+    padding-bottom: 60px;
+}
+.card-title{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    
+}
+
+
+.grid-container>*{
+
+   
+    background-color: rgba(53, 17, 101, 0.4);
+    padding:40px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.headphone{
+    grid-area: headphone;
+    padding-top:70px;
+
+}
+
+
+.device{
+    grid-area: device;
+}
+
+.Global{
+    grid-area: Global;
+}
+
+.Exclusive{
+    grid-area: Exclusive;
+}
+
+.Rich{
+    grid-area: Rich;
+}
+
+.grid-container{
+    display: grid;
+    gap:20px;
+
+    grid-template-areas:
+    
+    "headphone device device device "
+    "headphone  Global Global  Global"
+    "Exclusive Exclusive  Exclusive Rich "
+
+    
+    
+    
+    ;
+}
+
+.grid-container img{
+    padding-bottom: 20px;
+
+}
+
+.grid-container h1{
+    padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- Featured Episodes --> */
+.feature-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    
+    
+
+}
+
+.feature-ar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    height: 538px;
+   padding-bottom: 40px;
+   padding-top:90px;
+    
+    
+}
+
+.feature-ar-title{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom:30px;
+    
+}
+
+.Feature-card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.card {
+    width: 380px;
+    height: 440px;
+    
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: rgba(53, 17, 101, 0.4);
+}
+
+
+
+
+
+iframe {
+    border-radius: 30px 30px 0 0;
+   
+}
+
+
+.card-discription{
+    padding: 20px;
+
+}
+.card-discription p{
+    font-size:16px;
+    padding: 10px 0;
+}
+
+.clock-icon{
+    color: #00FF88;
+}
+
+
+
+
+
+
+
+
+/* Meet the Host */
+
+
+.host-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+
+}
+
+.host-main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    padding-bottom: 100px;
+}
+
+.host-main-container>h1 {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.alex-container {
+
+    background-color: rgba(53, 17, 101, 0.4);
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 40px;
+
+}
+
+.alex-description>h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.alex-picture {
+    padding: 10px;
+}
+
+.alex-description {
+    color: #afa8a8;
+
+
+}
+
+
+
+
+
+
+
 
 
 /* <!-- Footer Section --> */
 
-footer{
-    max-width:1600px;
-    margin:0 auto;
-}
-.footer-contaier{
-    background-image:url(./assets/footer-bg.png);
-    height:412px; 
-   background-repeat:no-repeat;
-   
+footer {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
+.footer-contaier {
+    background-image: url(./assets/footer-bg.png);
+    height: 412px;
+    background-repeat: no-repeat;
+
+}
 
 
-.foter-ar-container>h1{
+
+.foter-ar-container>h1 {
     color: #f5f5f5;
-    font-size:90px;
-    padding-top:90px;
+    font-size: 90px;
+    padding-top: 90px;
     font-weight: 700;
 
 }
 
-.foter-ar-container{
+.foter-ar-container {
     text-align: center;
-    color:#afa8a8;
-    
+    color: #afa8a8;
+
 }
 
-.socail-icon{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap:25px;
-   color: #afa8a8;
-   padding: 20px;
+.socail-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    color: #afa8a8;
+    padding: 20px;
 
-   
+
 }
 
-.wabe-colore{
-    background: linear-gradient(45deg, lab(57.8% 91.61 -36.7), lab(38.36% 66.02 -97.73));;
+.wabe-colore {
+    background: linear-gradient(45deg, lab(57.8% 91.61 -36.7), lab(38.36% 66.02 -97.73));
+    ;
     color: transparent;
     background-clip: text;
-    
+
 }
