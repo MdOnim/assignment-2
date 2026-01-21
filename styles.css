@@ -113,7 +113,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+   animation: subtleGlow 4s ease-in-out infinite;
+    
 }
+
+
 
 
 .circle-img-container>img{
@@ -216,7 +220,19 @@ nav {
     color: #FFFFFF;
     font-weight: 700;
     margin-bottom: 20px;
+   
 
+}
+.box{
+     animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+  0%   { color: red; }
+  25%  { color: rgb(255, 255, 255); }
+  50%  { color: green; }
+  75%  { color: blue; }
+  100% { color: red; }
 }
 
 .discription {
